@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.seat {
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+.seatGroup {
+  display: flex;
+  flex-direction: column;
+}
+.seatgroup_label {
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+.seatRow {
+  display: flex;
+  margin-bottom: 10px;
+}
+.seat_2ndRow {
+  width: 100%;
+  display: flex;
+}
+.seatGroup_column {
+  display: flex;
+  flex-direction: column;
+}
